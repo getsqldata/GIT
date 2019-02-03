@@ -1,1 +1,30 @@
-ascdasdas
+git --version
+git config --global user.name "YOUR_USERNAME"
+git config --global user.name
+
+git config --global user.email "your_email_address@example.com"
+git config --global user.email
+
+git config --global --list
+
+git clone https://gitlab.com/-----.git
+git clone git@gitlab.com:-------.git
+
+
+git branch
+
+git checkout master
+
+git diff
+
+git add FILE OR FOLDER
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+git add .
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+git push REMOTE NAME-OF-BRANCH
+git push origin master
+
+
+
