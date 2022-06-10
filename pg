@@ -1,0 +1,13 @@
+create function tax(subtotal real) returns real AS $$
+begin
+   return subtotal * 0.04;
+end;
+$$ LANGUAGE plpgsql;
+
+create function tax1(IN subtotal real, OUT tax real) returns real AS $$
+begin
+   tax :=  subtotal * 0.04;
+end;
+$$ LANGUAGE plpgsql;
+
+
